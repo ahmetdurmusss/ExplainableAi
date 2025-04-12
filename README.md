@@ -16,14 +16,18 @@ Bu proje, makine öğrenimi modellerinin karar verme süreçlerini daha anlaşı
 ---
 
 ## 🧭 Proje Yapısı
-. ├── shapWith_diabetsData/ 
-  │ ├── diabetes.csv 
-  │ └── shap_notebook.ipynb 
-  │ ├── limeWith_diabetsData/ 
-  │ ├── diabetes.csv 
-  │ └── lime_notebook.ipynb 
-  │ └── README.md
-
+.
+├── shapWith_diabetsData/
+│   ├── diabetes.csv
+│   ├── shap_notebook.ipynb
+│   └── README.md
+│
+├── limeWith_diabetsData/
+│   ├── diabetes.csv
+│   ├── lime_notebook.ipynb
+│   └── README.md
+│
+└── README.md
 
 
 ## 📂 Klasör Açıklamaları
