@@ -45,5 +45,8 @@ Bu çalışma, makine öğrenimi modellerini yalnızca doğruluk oranları üzer
 ## 📌 Notlar
 
 - Her klasör kendi içerisinde bağımsız olarak çalışabilir durumdadır.
-- Her bir klasörde veri seti (`diabetes.csv`) ve ilgili Jupyter Notebook dosyaları yer almaktadır.
-- Not defterleri doğrudan çalıştırılabilir yapıdadır.
+- Veri seti (`diabetes.csv`) ve Jupyter Notebook dosyaları çalıştırılabilir yapıdadır.
+- Tüm modeller, diyabet tahmini üzerine eğitilmiş bir **Random Forest sınıflandırıcısı** temel alınarak analiz edilmiştir.
+- Kullanıcılar dilerse bu modeli farklı makine öğrenimi algoritmaları (örneğin: `LogisticRegression`, `XGBoost`, `SVM`, `KNN`) ile değiştirerek SHAP ve LIME sonuçlarını gözlemleyebilir.
+- Bu sayede, algoritma türünün yorumlanabilirlik üzerindeki etkisi daha net şekilde karşılaştırılabilir.
+- Çalışmalar `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `shap`, ve `lime` gibi temel Python kütüphaneleri kullanılarak gerçekleştirilmiştir.
